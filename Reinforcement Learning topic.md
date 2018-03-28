@@ -6,11 +6,11 @@ tags:
   
 categories:  reinforcement learning
 ---
- 
- # general framework
+ [toc]
+ # 1. general framework
  There are many challeng problems in RL. They can be categorized in terms of different aspects
  
- ## From Algorithm 
+ ## 1.1 From Algorithm 
  1. Value function based
  - policy iteration(policy evaluation)
  - value iteration(Q-learing)
@@ -18,7 +18,7 @@ categories:  reinforcement learning
   - reinforce algorithm
  3. Actor Critic
 
-## From Learning Process
+## 1.2 From Learning Process
 
  >  1. Data collection
  
