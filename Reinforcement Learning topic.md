@@ -21,7 +21,5 @@ categories:  reinforcement learning
 ## From Learning Process
 
  >  1. Data collection
- >	 >  - 1
- >	 >  - 2
  >  2. Data selection
  >  3. Data utilization 
