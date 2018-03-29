@@ -26,14 +26,15 @@ categories:  reinforcement learning
 
 ## 1.2 From Learning Process
 
-  1. Data collection
-
-      * exploration
-      * parallel distributed learning
+    1. Data collection
+        * exploration
+        * parallel distributed learning
     
-  2. Data selection
+    2. Data selection
 
       * prioritized replay buffer
 
-  3. Data utilization
+    3. Data utilization
+      
+    *
  
