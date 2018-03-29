@@ -40,10 +40,13 @@ categories:  reinforcement learning
      * network structure
      * variance reduction
      * model-based
- ```sequence
-小明->小李: 你好 小李, 最近怎么样?
-Note right of 小李: 小李想了想
-小李-->小明: 还是老样子
-小王 --> 小李：lalal
-```
- 
+
+
+
+```mermaid
+graph LR
+A[Hard edge] -->B(Round edge)
+    B --> C{Decision}
+    C -->|One| D[Result one]
+    C -->|Two| E[Result two]
+​```
