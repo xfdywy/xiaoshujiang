@@ -7,7 +7,7 @@ tags:
 categories:  reinforcement learning
 ---
 
-
+<link rel="stylesheet" type="text/css" href="auto_index.css" />
 
 ##  General Framework
 
