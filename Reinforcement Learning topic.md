@@ -1,4 +1,4 @@
-<link rel="stylesheet" type="text/css" href="auto-number-title.css" />
+
 ---
 title:  Reinforcement Learning Topic 
 date: 2018-3-29 00:00:19
@@ -7,12 +7,13 @@ tags:
   
 categories:  reinforcement learning
 ---
- 
-# 1. General Framework
+<link rel="stylesheet" type="text/css" href="auto-number-title.css" />
+
+## 1. General Framework
 
  There are many challeng problems in RL. They can be categorized in terms of different aspects
  
-## 1.1 From Algorithm 
+### 1.1 From Algorithm 
 
  1. Value function based
 
@@ -25,7 +26,7 @@ categories:  reinforcement learning
 
  3. Actor Critic
 
-## 1.2 From Learning Process
+### 1.2 From Learning Process
 
   1. Data collection
         * exploration
@@ -43,13 +44,14 @@ categories:  reinforcement learning
      * model-based
 
 
-# 2. Topics 
+## 2. Topics 
 
-## 2.1 Theory
+### 2.1 Theory
 
-## 2.2 Algorithm
+### 2.2 Algorithm
 
-## 2.3 Application
+### 2.3 Application
+### 123
 
 
 
