@@ -7,7 +7,7 @@ tags:
 categories:  reinforcement learning
 ---
 
-<link rel="stylesheet" type="text/css" href="https://raw.githubusercontent.com/xfdywy/xiaoshujiang/master/auto_index.css" />
+<link rel="stylesheet" type="text/css" href="http://raw.githubusercontent.com/xfdywy/xiaoshujiang/master/auto_index.css" />
 
 ##  General Framework
 
