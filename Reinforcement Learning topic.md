@@ -1,4 +1,3 @@
-
 ---
 title:  Reinforcement Learning Topic 
 date: 2018-3-29 00:00:19
@@ -7,7 +6,8 @@ tags:
   
 categories:  reinforcement learning
 ---
-<link rel="stylesheet" type="text/css" href="auto-number-title.css" />
+
+<link rel="stylesheet" type="text/css" href="auto_index.css" />
 
 ## 1. General Framework
 
