@@ -1,5 +1,6 @@
+<link rel="stylesheet" type="text/css" href="auto-number-title.css" />
 ---
-title:  Reinforcement Learning topic 
+title:  Reinforcement Learning Topic 
 date: 2018-3-29 00:00:19
 tags:
     -  reinforcement learing
@@ -7,7 +8,7 @@ tags:
 categories:  reinforcement learning
 ---
  
-# 1. general framework
+# 1. General Framework
 
  There are many challeng problems in RL. They can be categorized in terms of different aspects
  
@@ -42,11 +43,14 @@ categories:  reinforcement learning
      * model-based
 
 
+# 2. Topics 
 
-```mermaid
-graph LR
-A[Hard edge] -->B(Round edge)
-    B --> C{Decision}
-    C -->|One| D[Result one]
-    C -->|Two| E[Result two]
-​```
+## 2.1 Theory
+
+## 2.2 Algorithm
+
+## 2.3 Application
+
+
+
+    
