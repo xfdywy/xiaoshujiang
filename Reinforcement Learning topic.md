@@ -53,6 +53,19 @@ categories:  reinforcement learning
 
 ## Exploration
 
+There are two different meanings behind the **exploration** term.
+* The first one is when the state space is infinite or too large to be traversed.
+* The second one is when the state space is finite. 
+
+ For the first case, identifying the **"visited level"** is the most important thing. Only if we see enough unseen state, can we make the right decision. The **"visited level"** is not the trivial count of each state because of the dependent between each state.
+
+For the second case, identifying the **uncertainty level** is the most important thing. We should go mostly to the state of which the estimated value is high and the uncertainty level is low.
+
+| estimated value / uncertanty | large | small |
+| -------------------------- | ----- | ----- |
+| high                       | +     |       |
+| low                        | +++   | -     |
+
 ## Variance Reduction
 
 ## Model Based
