@@ -71,7 +71,7 @@ For the second case, identifying the **"uncertainty level"** is the most importa
 ## Variance Reduction
 
 ### Variance Reduction in PG
-control variable provide a framework to combine model base and model free method together with the variance reduction issue
+control variable provides a framework to combine model base and model free method together with the variance reduction issue
 
 ## Model Based
 
