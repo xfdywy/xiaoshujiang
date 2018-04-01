@@ -59,22 +59,24 @@ There are two different meanings behind the **exploration** term.
 
  For the first case, identifying the **"visited level"** is the most important thing. Only if we see enough unseen state, can we make the right decision. The **"visited level"** is not the trivial count of each state because of the dependent between each state.
 
-For the second case, identifying the **uncertainty level** is the most important thing. We should go mostly to the state of which the estimated value is high and the uncertainty level is low.
+For the second case, identifying the **"uncertainty level"** is the most important thing. We should go mostly to the state of which the estimated value is large and the uncertainty level is low.
 
 | estimated value / uncertanty	 | large | small |
-| :--------------------------:				| :-----: | :----: |
-| high                       					| +     |       |
-| low                        					| +++   | -     |
+| :--------------------------:               | :-----: | :----:   |
+| high                       					| +       |   +    |
+| low                        					| +++   | -       |
 
-name | age
----- | ---
-LearnShare | 12
-Mike |  32
+
+ 
 ## Variance Reduction
+
+### Variance Reduction in PG
+control variable provide a framework to combine model base and model free method together with the variance reduction issue
 
 ## Model Based
 
 ## Policy Gradient based
+### TRPO
 
  
 
