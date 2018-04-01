@@ -62,7 +62,7 @@ There are two different meanings behind the **exploration** term.
 For the second case, identifying the **uncertainty level** is the most important thing. We should go mostly to the state of which the estimated value is high and the uncertainty level is low.
 
 | estimated value / uncertanty | large | small |
-| -------------------------- | ----- | ----- |
+| :--------------------------: | :-----: | :----: |
 | high                       | +     |       |
 | low                        | +++   | -     |
 
