@@ -30,6 +30,7 @@ categories:  reinforcement learning
   1. Data collection
      * exploration
 	 * parallel distributed learning
+	 
 
   2. Data selection
 
@@ -71,22 +72,28 @@ For the second case, identifying the **"uncertainty level"** is the most importa
 ## Variance Reduction
 
 ### Importance sampling
+Importance sampling method may introduce a high variance in RL algorithms since the different policies may take one action in very different probability( denominator near to 0 and numerator near to 1, vice-versa ). We need to do variance reduction together with importance sampling.
 
 ### Variance Reduction in PG
-control variable provides a framework to combine model base and model free method together with the variance reduction issue
+Control variable provides a framework to combine model base and model free method together with the variance reduction issue
 
 ## Model Based
 
-### model based
+### model based for data collection
+
+### model based for data utilization
+
+### distributed model based for data utilization(xufang)
 
 ## Policy Gradient based
-### TRPO
+### TRPO with different metric(w distance)
 
 
 ## Other topics
 
 ### Inverse RL
-
+1. Inverse RL with GAN
+2. 
 ### Multiagent, Multitask
 
 ### Hierarchical RL
