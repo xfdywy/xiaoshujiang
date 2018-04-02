@@ -28,9 +28,9 @@ categories:  reinforcement learning
 ###  From Learning Process
 
   1. Data collection
-        * exploration
-        * parallel distributed learning
-    
+     * exploration
+	 * parallel distributed learning
+
   2. Data selection
 
       * prioritized replay buffer
@@ -76,6 +76,8 @@ For the second case, identifying the **"uncertainty level"** is the most importa
 control variable provides a framework to combine model base and model free method together with the variance reduction issue
 
 ## Model Based
+
+### model based
 
 ## Policy Gradient based
 ### TRPO
