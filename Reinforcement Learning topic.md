@@ -2,7 +2,7 @@
 title:  Reinforcement Learning Topic 
 date: 2018-3-29 00:00:19
 tags:
-    -  reinforcement learing
+    -  reinforcement learning
   
 categories:  reinforcement learning
 ---
@@ -10,16 +10,16 @@ categories:  reinforcement learning
 
 ##  General Framework
 
- There are many challeng problems in RL. They can be categorized in terms of different aspects
+ There are many challenge problems in RL. They can be categorized in terms of different aspects
  
 ###  From Algorithm 
 
  1. Value function based
 
 	 - policy iteration(policy evaluation)
-	 - value iteration(Q-learing)
+	 - value iteration(Q-learning)
 
- 2. Policy funciton basd
+ 2. Policy function based
 
  	 - reinforce algorithm
 
@@ -61,10 +61,10 @@ There are two different meanings behind the **exploration** term.
 
 For the second case, identifying the **"uncertainty level"** is the most important thing. We should go mostly to the state of which the estimated value is large and the uncertainty level is low.
 
-| estimated value / uncertanty	 | large | small |
-| :--------------------------:               | :-----: | :----:   |
-| high                       					| +       |   +    |
-| low                        					| +++   | -       |
+| estimated value / uncertanty	 | large   | small |
+| :--------------------------:   | :-----: | :----: |
+| high                       	 | +       |   +    |
+| low                            | +++     | -       |
 
 
  
