@@ -8,10 +8,7 @@ categories:  reinforcement learning
 
 ---
  
-[ ] 未完成事项
-[-] 未完成事项
-[x] 完成事项
-[X] 完成事项 
+ 
 
 ## General Framework
 
@@ -34,19 +31,19 @@ categories:  reinforcement learning
 ### From Learning Process
 
 1. Data collection
- * exploration
-  * parallel distributed learning
+     * exploration
+     * parallel distributed learning
 
 2. Data selection
 
-  * prioritized replay buffer
-
+      * prioritized replay buffer
+                       
 3. Data utilization
 
- * learning rate setting
- * network structure
- * variance reduction
- * model-based
+     * learning rate setting
+     * network structure
+     * variance reduction
+     * model-based
 
 
 ## Topics
@@ -110,7 +107,7 @@ Control variable provides a framework to combine model base and model free metho
 
 
 
-You can create footnotes like this[^footnote].
+ 
 
  
 
