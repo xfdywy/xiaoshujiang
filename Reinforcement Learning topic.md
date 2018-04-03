@@ -128,8 +128,7 @@ You can create footnotes like this[^footnote].
 
 ​    h1:before {
       counter-increment: h1counter;
-      content: counter(h1counter) ".";
-                 
+      content: counter(h1counter) ".";                 
     }
 
 ​    h2:before {
