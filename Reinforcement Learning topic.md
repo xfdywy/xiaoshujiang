@@ -118,7 +118,7 @@ You can create footnotes like this[^footnote].
 <style type="text/css">
  
  	body  {  counter-reset:h1counter;}
-    h1 { counter-reset: h1counter; }
+    h1 { counter-reset: h2counter; }
     h2 { counter-reset: h3counter; }
     h3 { counter-reset: h4counter; }
     h4 { counter-reset: h5counter; }
