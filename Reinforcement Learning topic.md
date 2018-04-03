@@ -132,7 +132,7 @@ You can create footnotes like this[^footnote].
 
 ​    h2:before {
       counter-increment: h2counter;
-      content: counter(h1counter) "."
+      content: counter(h1counter) "12121."
                 counter(h2counter) ".\0000a0\0000a0";
     }
     h3:before {
