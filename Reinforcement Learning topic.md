@@ -98,7 +98,7 @@ Control variable provides a framework to combine model base and model free metho
 
 ### Inverse RL
 
-1. Inverse RL with GAN[^2]
+1. Inverse RL with GAN 
 2. ​
 
 ### Multiagent, Multitask
@@ -109,7 +109,7 @@ Control variable provides a framework to combine model base and model free metho
 
 You can create footnotes like this[^footnote].
 
-[^2]: 123
+ 
 
 
 
