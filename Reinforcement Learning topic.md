@@ -14,7 +14,6 @@ categories:  reinforcement learning
  There are many challenge problems in RL. They can be categorized in terms of different aspects
 
 ### From Algorithm
-
 1. Value function based
 
    - policy iteration(policy evaluation)
@@ -25,12 +24,11 @@ categories:  reinforcement learning
    - reinforce algorithm
 
 3. Actor Critic
+ 
 
-   ​
 
 ### From Learning Process
 
-```
 1. Data collection
  * exploration
   * parallel distributed learning
@@ -45,7 +43,7 @@ categories:  reinforcement learning
  * network structure
  * variance reduction
  * model-based
-```
+
 
 ## Topics
 
