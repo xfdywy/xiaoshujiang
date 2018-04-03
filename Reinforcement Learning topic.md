@@ -8,11 +8,12 @@ categories:  reinforcement learning
 
 ---
 
-# General Framework
+
+## General Framework
 
  There are many challenge problems in RL. They can be categorized in terms of different aspects
 
-## From Algorithm
+### From Algorithm
 
 1. Value function based
 
@@ -27,7 +28,7 @@ categories:  reinforcement learning
 
    ​
 
-## From Learning Process
+### From Learning Process
 
 ```
 1. Data collection
@@ -46,15 +47,15 @@ categories:  reinforcement learning
  * model-based
 ```
 
-# Topics
+## Topics
 
-## Theory
+### Theory
 
-## Algorithm
+### Algorithm
 
-## Application
+### Application
 
-# Exploration
+## Exploration
 
 There are two different meanings behind the **exploration** term.
 
@@ -114,26 +115,16 @@ You can create footnotes like this[^footnote].
 
 
 ------
-
 <style type="text/css">
- 
- 	body  {  counter-reset:h1counter;}
     h1 { counter-reset: h2counter; }
     h2 { counter-reset: h3counter; }
     h3 { counter-reset: h4counter; }
     h4 { counter-reset: h5counter; }
     h5 { counter-reset: h6counter; }
     h6 { }
-
-​    h1:before {
-      counter-increment: h1counter;
-      content: 1 ".";                 
-    }
-
-​    h2:before {
+    h2:before {
       counter-increment: h2counter;
-      content: counter(h1counter) "12121."
-                counter(h2counter) ".\0000a0\0000a0";
+      content: counter(h2counter) ".\0000a0\0000a0";
     }
     h3:before {
       counter-increment: h3counter;
