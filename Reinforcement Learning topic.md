@@ -117,7 +117,7 @@ You can create footnotes like this[^footnote].
 
 <style type="text/css">
  
- 	body  {  counter-reset:section;}
+ 	body  {  counter-reset:h1counter;}
     h1 { counter-reset: h2counter; }
     h2 { counter-reset: h3counter; }
     h3 { counter-reset: h4counter; }
@@ -127,7 +127,7 @@ You can create footnotes like this[^footnote].
 
 ​    h1:before {
       counter-increment: h1counter;
-      content: counter(h1counter) ".";                 
+      content: 1 ".";                 
     }
 
 ​    h2:before {
@@ -161,5 +161,4 @@ You can create footnotes like this[^footnote].
                 counter(h5counter) "."
                 counter(h6counter) ".\0000a0\0000a0";
     }
-</style>
 </style>
