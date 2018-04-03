@@ -125,10 +125,11 @@ You can create footnotes like this[^footnote].
     h5 { counter-reset: h6counter; }
     h6 { }
 
-  	h1:before {
-   	 counter-increment: h1;
-    	content: counter(h1) ". "
-	}
+​    h1:before {
+      counter-increment: h1counter;
+      content: counter(h1counter) ".";
+                 
+    }
 
 ​    h2:before {
       counter-increment: h2counter;
