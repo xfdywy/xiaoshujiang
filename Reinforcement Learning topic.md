@@ -7,7 +7,11 @@ tags:
 categories:  reinforcement learning
 
 ---
-
+ 
+[ ] 未完成事项
+[-] 未完成事项
+[x] 完成事项
+[X] 完成事项 
 
 ## General Framework
 
