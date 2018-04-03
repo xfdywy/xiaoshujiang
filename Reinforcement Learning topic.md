@@ -117,20 +117,24 @@ You can create footnotes like this[^footnote].
 
 <style type="text/css">
  
-
-​    h1 { counter-reset: h2counter; }
+<style type="text/css">
+    h1 { counter-reset: h2counter; }
     h2 { counter-reset: h3counter; }
     h3 { counter-reset: h4counter; }
     h4 { counter-reset: h5counter; }
     h5 { counter-reset: h6counter; }
     h6 { }
-	 h1:before {
+
+  h1:before {
     counter-increment: h1;
     content: counter(h1) ". "
 }
-    h2:before {
+
+​    h2:before {
       counter-increment: h2counter;
-      content: counter(h2counter) ".\0000a0\0000a0";
+      content:counter(h1counter) "."
+
+​	 		counter(h2counter) ".\0000a0\0000a0";
     }
     h3:before {
       counter-increment: h3counter;
@@ -158,4 +162,5 @@ You can create footnotes like this[^footnote].
                 counter(h5counter) "."
                 counter(h6counter) ".\0000a0\0000a0";
     }
+</style>
 </style>
