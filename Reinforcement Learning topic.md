@@ -50,10 +50,51 @@ categories:  reinforcement learning
 ## Topics
 
 ### Theory
+ - Policy evaluation sample complexity
+    * More algorithms
+    * Function approximation
+    * None I.I.D.
+ - Control algorithms sample complexity
+    * Policy iteration 
+        * Error propagation
+    * Value iteration
+        * Regret bound
+        * PAC bound
+        * upper bounds are too conservative, lower bounds are needed
+ - Exploration theory
+    * Based on Q-learning
+        * OFU(optimistic on the face of uncertainty)
+        * Thompson sampling
+    * Based on PG
+        * Entropy?
+            
+ 
 
 ### Algorithm
+1. Exploration algorithms
+    - OFU
+        - Pseudo count
+        - Curiosity-driven
+            - VIME
+            - Intrinsic Curiosity Module (ICM)
+    - Thompson sampling
+        -  Deep exploration
+            -  Randomized Value Functions
+            -  Bootstrapped DQN 
+            -  Parameter Space Noise for Exploration
+2. More efficient Policy gradient method
+    - Trust region method
+    - REINFORCE algorithms have large variance
+        - variance reduction through control variable
+        - variance reduction through change distribution
+        - variance reduction through replace REINFORCE with other pure gradient method
+3. Combine on policy and off policy method
+4. Combine model based and model free method
+
 
 ### Application
+- Game Playing
+- Robotics
 
 ## Exploration
 
@@ -82,6 +123,8 @@ Importance sampling method may introduce a high variance in RL algorithms since 
 ### Variance Reduction in PG
 
 Control variable provides a framework to combine model base and model free method together with the variance reduction issue
+
+### Averaged-DQN
 
 ## Model Based
 
