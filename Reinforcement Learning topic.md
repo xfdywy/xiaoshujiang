@@ -5,76 +5,81 @@ tags:
     -  reinforcement learning
   
 categories:  reinforcement learning
+
 ---
 
-
-##  General Framework
+## General Framework
 
  There are many challenge problems in RL. They can be categorized in terms of different aspects
- 
-###  From Algorithm 
 
- 1. Value function based
+### From Algorithm
 
-	 - policy iteration(policy evaluation)
-	 - value iteration(Q-learning)
+1. Value function based
 
- 2. Policy function based
+   - policy iteration(policy evaluation)
+   - value iteration(Q-learning)
 
- 	 - reinforce algorithm
+2. Policy function based
 
- 3. Actor Critic
+   - reinforce algorithm
 
-###  From Learning Process
+3. Actor Critic
 
-  1. Data collection
-     * exploration
-	 * parallel distributed learning
-	 
+   ​
 
-  2. Data selection
+### From Learning Process
 
-      * prioritized replay buffer
+```
+1. Data collection
+ * exploration
+  * parallel distributed learning
 
-  3. Data utilization
-      
-     * learning rate setting
-     * network structure
-     * variance reduction
-     * model-based
+2. Data selection
 
+  * prioritized replay buffer
 
-##   Topics 
+3. Data utilization
 
-###   Theory
+ * learning rate setting
+ * network structure
+ * variance reduction
+ * model-based
+```
 
-###   Algorithm
+## Topics
 
-###   Application
+### Theory
+
+### Algorithm
+
+### Application
 
 ## Exploration
 
 There are two different meanings behind the **exploration** term.
-* The first one is when the state space is infinite or too large to be traversed.
-* The second one is when the state space is finite. 
+
+- The first one is when the state space is infinite or too large to be traversed.
+- The second one is when the state space is finite. 
 
  For the first case, identifying the **"visited level"** is the most important thing. Only if we see enough  state, can we make the right decision. The **"visited level"** is not the trivial count of each state because of the dependent between each state.
 
 For the second case, identifying the **"uncertainty level"** is the most important thing. We should go mostly to the state of which the estimated value is large and the uncertainty level is low.
 
-| estimated value / uncertanty	 | large   | small |
-| :--------------------------:   | :-----: | :----: |
-| high                       	 | +       |   +    |
-| low                            | +++     | -       |
+| estimated value / uncertanty | large | small |
+| :--------------------------: | :---: | :---: |
+|             high             |   +   |   +   |
+|             low              |  +++  |   -   |
 
 
- 
+
 ## Variance Reduction
 
 ### Importance sampling
+
 Importance sampling method may introduce a high variance in RL algorithms since the different policies may take one action in very different probability( denominator near to 0 and numerator near to 1, vice-versa ). We need to do variance reduction together with importance sampling.
 
 ### Variance Reduction in PG
+
 Control variable provides a framework to combine model base and model free method together with the variance reduction issue
 
 ## Model Based
@@ -86,27 +91,30 @@ Control variable provides a framework to combine model base and model free metho
 ### distributed model based for data utilization(xufang)
 
 ## Policy Gradient based
-### TRPO with different metric(w distance)
 
+### TRPO with different metric(w distance)
 
 ## Other topics
 
 ### Inverse RL
-1. Inverse RL with GAN
-2. 
+
+1. Inverse RL with GAN[^2]
+2. ​
+
 ### Multiagent, Multitask
 
 ### Hierarchical RL
- 
 
 
 
+You can create footnotes like this[^footnote].
+
+[^2]: 123
 
 
 
+------
 
-
--------------------------
 <style type="text/css">
     h1 { counter-reset: h2counter; }
     h2 { counter-reset: h3counter; }
@@ -145,4 +153,3 @@ Control variable provides a framework to combine model base and model free metho
                 counter(h6counter) ".\0000a0\0000a0";
     }
 </style>
-
