@@ -49,3 +49,18 @@ PEP8 全称 Python Enhancement Proposal #8.下面是比较重要的几点：
 - import 总是放在开头
 - import语句要按照 标准库模块，第三方模块，自用模块来分成三块，并且按照字母序排列
 
+# 第3条：了解bytes，str和unicode的区别。
+
+Unicode 是「字符集」
+UTF-8 是「编码规则」gbk等也是
+
+python3有两种表示字符序列的类型：bytes和str
+python2有三种表示字符序列的内心： str和unicode
+
+python3中的str相当于py2的unicode
+python3中的str只能encode
+python3中str可以被encode成bytes，例如gbk utf-8等
+
+python2中unicode是一种最基本的数据类型。需要加u在前面表示。`u 'abc'`. unicode可以被encode成str（如gbk，utf-8等）
+python2中str是指utf8 gbk这样的编码过的对象，可以被decode成unicode。默认字符串是str.它本身存储的就是字节码（bytes）。
+
