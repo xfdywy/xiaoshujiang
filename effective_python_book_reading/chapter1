@@ -64,6 +64,7 @@ python3中str可以被encode成bytes，例如gbk utf-8等
 python2中unicode是一种最基本的数据类型。需要加u在前面表示。`u 'abc'`. unicode可以被encode成str（如gbk，utf-8等）
 python2中str是指utf8 gbk这样的编码过的对象，可以被decode成unicode。默认字符串是str.它本身存储的就是字节码（bytes）。
 
+
 # 第4条： 用辅助函数来取代复杂表达式
 不要过度运用python的语法特性，写那些特别复杂且难以理解的表达式，特别是如果要反复利用的话，更要包装一下成函数。
 
