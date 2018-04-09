@@ -55,7 +55,7 @@ Unicode 是「字符集」
 UTF-8 是「编码规则」gbk等也是
 
 python3有两种表示字符序列的类型：bytes和str
-python2有三种表示字符序列的内心： str和unicode
+python2有三种表示字符序列的类型： str和unicode
 
 python3中的str相当于py2的unicode
 python3中的str只能encode
