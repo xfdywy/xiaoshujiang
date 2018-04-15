@@ -47,6 +47,7 @@ yum makecache
 
 # docker
 docker 官网上已经只支持centos7 内核版本号3.10  以上。所以我只能安装非官方版了
+## 安装
 用以下命令：
 ```
 yum install docker-io
@@ -57,6 +58,53 @@ service docker start
 ```
 vim /var/log/docker
 ```
+## 使用
+1. 下载一个image 命令为：
+```
+docker pull ubuntu
+```
+2. 从一个image启动一个container 命令为：
+``` stylus
+docker run -v localdir:containerport -p localport:containerport -it  ubuntu:wy
+ ```
+3. 查看所有container：
+```
+docker ps -a
+```
+
+4. 启动一个关闭了的container：
+```
+docker start id
+```
+5. 交互连接一个启动了的contaner
+```
+docker attach id
+```
+6. 后台运行一个attach中的container 按ctrl p q
+
+7. 查看所有 image
+```
+docker images
+```
+8. 关闭一个container
+```
+docker stop id
+```
+9. 删除container
+```
+docker rm id
+或
+docker rm $(docker ps -a -q)
+删除所有container
+```
+
+10. 删除 image
+```
+docker rmi image_id
+```
+
+
+
 
 # nginx
 这个是个非常给力的反向代理和web服务器。这里既然说是和，就是说他有两个功能，这里重点放在前者，反向代理。
