@@ -102,6 +102,22 @@ docker rm $(docker ps -a -q)
 ```
 docker rmi image_id
 ```
+
+11. 保存修改过的docker container
+``` 
+docker commit id ubuntu:wy
+```
+12 push docker 到自己的仓库里
+``` 
+docker tag ubuntu:wy xfdywy:ubuntu
+docker images
+docker push xfdywy:ubuntu
+```
+
+13. docker 查看container log
+``` 
+docker logs -f id
+```
 ## 遇到的坑
 docker in docker 坑太大，放弃
 
@@ -143,6 +159,14 @@ service nginx start
 ``` stylus
 service nginx status
 ```
+
+查看端口
+```
+lsof -i:80
+
+netstat -anp|grep 80 
+```
+
 一些文件地址：
 
 ``` stylus
