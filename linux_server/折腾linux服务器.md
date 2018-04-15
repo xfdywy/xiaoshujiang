@@ -102,6 +102,8 @@ docker rm $(docker ps -a -q)
 ```
 docker rmi image_id
 ```
+## 遇到的坑
+docker in docker 坑太大，放弃
 
 
 
