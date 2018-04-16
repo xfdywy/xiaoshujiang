@@ -78,7 +78,7 @@ a[3:-3]
 slice列表时，start越界也不会出问题，但是访问单个元素的时候会报错
 slice列表是一份拷贝，不是引用
 
-# 第6条： 单次切片操作内，不要同时制定start， end， stride
+# 第6条： 单次切片操作内，不要同时使用start， end， stride
 python提供了`list[start:end:stride]`的操作
 stride 为负数表示反过来取
 ``` python
