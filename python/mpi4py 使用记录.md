@@ -7,4 +7,7 @@ tags:
     -   mpi4py
 categories:  python
 ---
- 
+
+# 概述
+# 函数记录
+# pytorch中的mpi
