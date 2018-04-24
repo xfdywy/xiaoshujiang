@@ -15,7 +15,7 @@ categories: python
 
 # 第1条： 确认自己用的python版本
 这个不用多说了，py2和py3 还是有一定 的兼容性问题的，但是大部分都不成问题，跑代码前一定要先确认好自己的python版本。
-
+123
 ``` python
 python --version
 ```
