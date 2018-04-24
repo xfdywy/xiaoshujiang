@@ -10,7 +10,7 @@ categories: python
 
 
 今天填了一天的坑。成果是 qcloud_cos_py3.
-腾讯云的cos python sdk cos-python-sdk-v5 只支持python2.7， 而我的qt5项目要 python3.* .
+腾讯云的cos python sdk cos-python-sdk-v5 只支持python2.7， 而我的qt项目要 python3.* .
 
 于是就自己动手写了一个Python 3.* 的sdk。
 
