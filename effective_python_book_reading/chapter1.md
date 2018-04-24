@@ -6,6 +6,7 @@ tags:
     -  effective
 
 categories: python
+idx: 2
 
 --  
 
