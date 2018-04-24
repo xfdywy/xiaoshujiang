@@ -1,13 +1,12 @@
 ---
-title:  Effective Python 59 specific ways 读书笔记 第一章 
+title: "Effective Python 59 specific ways 读书笔记 第一章" 
 date: 2018-03-27
+idx: 2
 tags:
     -  python
     -  effective
-
 categories: python
-idx: 2
---- 
+---
 
 今天开始学习这本书，准备用自己的博客做点笔记。
 我自己计划着，笔记的内容会会随着自己的理解而变化，在想到好的组织方式之前，我选择“抄书”吧。预计一章一篇博客。总共8章。
