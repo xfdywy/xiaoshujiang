@@ -1,5 +1,5 @@
 ---
-title:  
+title:  vnc 连接服务器
 date: 2018-3-29 00:00:19
 tags:
     -   vnc
