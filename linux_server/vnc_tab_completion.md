@@ -2,7 +2,11 @@
 title:  
 date: 2018-3-29 00:00:19
 tags:
-    -   
+    -   vnc
+    -   tab 
+    -   xfce
+    -   自动补全
+    -   状态栏
 categories:  
 ---
 
