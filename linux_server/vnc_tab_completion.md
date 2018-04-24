@@ -1,6 +1,6 @@
 ---
 title:  vnc 连接服务器
-date: 2018-4-27  
+date: 2018-4-23  
 tags:
     -   vnc
     -   tab 
