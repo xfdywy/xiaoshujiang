@@ -8,7 +8,7 @@ categories:
 
 
  Jupyter lab 是Jupyter notebook 的升级版，是ipython notebook的升级版。
- 大体来说就是用浏览器作为IDE，编写代码边运行，并且保留结果。形成像notebook一样的一份文档。
+ 大体来说就是用浏览器作为IDE，编写代码边运行，并且保留结果，形成像notebook一样的一份文档。
  
  Jupyter lab 的安装很简单，假定已经安装了anaconda了。那么已经有了Jupyter notebook了，这个时候安装只需要一句命令：
  
@@ -48,7 +48,7 @@ jupyter notebook password
 应该已经可以了。试试在浏览器里面输入localhost:8080 ，如果还是不行，就手动把生成的```jupyter_notebook_config.json```里面的password后面的， 复制到 ```jupyter_notebook_config.py```中
 找到下面这行并修改
 ```
-c.NotebookApp.password = u'sha:ce...刚才复制的那个密文'
+c.NotebookApp.password = u'...刚才复制的那个密文'
 ```
 进去之后就是这样了
 ![enter description here](https://img-1253424161.cos.ap-shanghai.myqcloud.com/xsj/2018/4/1524829854782.jpg)
