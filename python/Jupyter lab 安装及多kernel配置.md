@@ -45,7 +45,8 @@ jupyter notebook password
 ```
 输入你的密码，生成对应的hash值，放到config文件的同目录下了（自动）
 
-应该已经可以了。试试在浏览器里面输入localhost:8080 ，如果还是不行，就手动把生成的```jupyter_notebook_config.json```里面的password后面的， 复制到 ```jupyter_notebook_config.py```中
+应该已经可以了。试试在浏览器里面输入localhost:8080 ，如果还是不行，就手动把生成的 ```jupyter_notebook_config.json``` 里面的password后面的， 复制到 ```jupyter_notebook_config.py``` 中
+
 找到下面这行并修改
 ```
 c.NotebookApp.password = u'...刚才复制的那个密文'
