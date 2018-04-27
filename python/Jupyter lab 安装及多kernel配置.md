@@ -24,7 +24,7 @@ conda install -c conda-forge jupyterlab
 ``` bash
 jupyter lab
 ```
-就ok了。当然也可以进行一些配置, 与jupyter notebook 的配置完全一致。你可以输入```jupyter lab -h``` 来进行查看。例如
+就ok了。当然也可以进行一些配置, 与jupyter notebook 的配置完全一致。你可以输入`jupyter lab -h` 来进行查看。例如
 
 ``` bash
 jupyter lab --port='8080' --ip='*' --notebook-dir='d:/'
@@ -45,7 +45,7 @@ jupyter notebook password
 ```
 输入你的密码，生成对应的hash值，放到config文件的同目录下了（自动）
 
-应该已经可以了。试试在浏览器里面输入localhost:8080 ，如果还是不行，就手动把生成的 ```jupyter_notebook_config.json``` 里面的password后面的， 复制到 ```jupyter_notebook_config.py``` 中
+应该已经可以了。试试在浏览器里面输入localhost:8080 ，如果还是不行，就手动把生成的 ` jupyter_notebook_config.json ` 里面的password后面的， 复制到 ` jupyter_notebook_config.py ` 中
 
 找到下面这行并修改
 ```
