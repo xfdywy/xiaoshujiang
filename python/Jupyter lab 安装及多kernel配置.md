@@ -9,7 +9,7 @@ categories:
 
  Jupyter lab 是Jupyter notebook 的升级版，是ipython notebook的升级版。
  大体来说就是用浏览器作为IDE，编写代码边运行，并且保留结果，形成像notebook一样的一份文档。
- 
+ # 安装
  Jupyter lab 的安装很简单，假定已经安装了anaconda了。那么已经有了Jupyter notebook了，这个时候安装只需要一句命令：
  
 
