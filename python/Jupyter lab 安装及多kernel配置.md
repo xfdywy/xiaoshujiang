@@ -38,3 +38,4 @@ jupyter lab --port='8080' --ip='*' --notebook-dir='d:/'
 
 下一个问题就是如何配置多个kernel了。
 # 配置python2 python3 r的kernel
+ ## R kernel
