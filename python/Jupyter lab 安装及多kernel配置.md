@@ -54,7 +54,9 @@ c.NotebookApp.password = u'...刚才复制的那个密文'
 ![enter description here](https://img-1253424161.cos.ap-shanghai.myqcloud.com/xsj/2018/4/1524829854782.jpg)
 
 下一个问题就是如何配置多个kernel了。
+
 # 配置python2 python3 r的kernel
+
  ## R kernel
  如果你已经安装了r，那么在r的命令行下输入
  
