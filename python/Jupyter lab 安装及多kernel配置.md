@@ -24,7 +24,7 @@ conda install -c conda-forge jupyterlab
 ``` bash
 jupyter lab
 ```
-就ok了。当然也可以进行一些配置, 与jupyternotebook 的配置完全一致。你可以输入```jupyter lab -h``` 来进行查看。例如
+就ok了。当然也可以进行一些配置, 与jupyter notebook 的配置完全一致。你可以输入```jupyter lab -h``` 来进行查看。例如
 
 ``` bash
 jupyter lab --port='8080' --ip='*' --notebook-dir='d:/'
