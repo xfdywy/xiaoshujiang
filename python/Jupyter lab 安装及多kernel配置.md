@@ -2,8 +2,10 @@
 title:  Jupyter lab 安装及多kernel配置
 date: 2018-4-27
 tags:
-    -   
-categories:  
+    -   Jupyter lab
+    -   python
+    -   R
+categories:  python
 ---
 
 
