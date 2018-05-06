@@ -16,3 +16,9 @@ categories:  web
 通过输入网易云音乐的歌单id，来创建播放列表。可以手动输入歌单id。
 
 提前感谢各位大佬给的网易云音乐api。
+
+学习到的几点：
+## javascript http get 请求处理
+## javascript json 处理
+## javascript function 循环等
+## 简单css
