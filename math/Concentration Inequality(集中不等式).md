@@ -5,6 +5,7 @@ mathjax: true
 tags:
     -   Concentration Inequality
 categories:  math
+mathjax: true
 ---
 
 
