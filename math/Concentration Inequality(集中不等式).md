@@ -29,7 +29,7 @@ Concentration inequality 刻画了一组随机变量的和（或者样本平均�
 
 > $$ \operatorname{P}(X \geq a) \leq \frac{\operatorname{E}(X)}{a} $$
 \begin{aligned} 
-    a  &= \mathcal{A}\\
+    a  &= \mathcal{A} \\
         &\le alpha
 \end{aligned}
 ## 直观：
