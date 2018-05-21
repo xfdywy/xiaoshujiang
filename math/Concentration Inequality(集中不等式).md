@@ -1,6 +1,7 @@
 ---
 title:  Concentration Inequality(集中不等式)
 date: 2018-5-21
+mathjax: true
 tags:
     -   Concentration Inequality
 categories:  math
