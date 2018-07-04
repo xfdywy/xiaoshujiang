@@ -32,6 +32,13 @@ contact Yue to get the password
 
 http://ssh.school.bjtulxy.ml:8080/
 
+## monitor
+
+http://overview.school.bjtulxy.ml:8080/
+
+## view server network usage
+
+http://10-10-43-3.school.bjtulxy.ml:8080/
 
 ## (LEGACY) About  free internet connection 
 
