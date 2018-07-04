@@ -7,7 +7,7 @@
 ## Cloud Storage
 
 
-Recommend : [KODExplorer](/KODExplorer/)  
+[KODExplorer](/KODExplorer/)  (Recommended)
 
 [NextCloud](/nextcloud/index.php/login)
 
