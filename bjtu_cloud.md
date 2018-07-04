@@ -19,7 +19,7 @@ password: taolunban
 
 [WordPress blog](http://blog.school.bjtulxy.ml:8080/)
 
-use http://blog.school.bjtulxy.ml:8080/wp-admin/ to write now post
+use http://blog.school.bjtulxy.ml:8080/wp-admin/ to write new post
 username: bjtulxy
 password: mamen
 
