@@ -23,20 +23,20 @@ use http://blog.school.bjtulxy.ml:8080/wp-admin/ to write new post
 username: bjtulxy
 password: mamen
 
-## jupyter notebook
+## Jupyter notebook
 
 http://jupyter.school.bjtulxy.ml:8080/
 contact Yue to get the password
 
-## web ssh
+## Web ssh
 
 http://ssh.school.bjtulxy.ml:8080/
 
-## monitor
+## Monitor
 
 http://overview.school.bjtulxy.ml:8080/
 
-## view server network usage
+## View server network usage
 
 http://10-10-43-3.school.bjtulxy.ml:8080/
 
