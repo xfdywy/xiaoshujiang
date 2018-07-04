@@ -7,10 +7,21 @@
 ## Cloud Storage
 
 
-
 Recommend : [KODExplorer](/KODExplorer/)  
 
 [NextCloud](/nextcloud/index.php/login)
+
+
+## Markdown writer
+[HackMD](http://md.school.bjtulxy.ml:8080/)
+username: taolunban@md.com
+password: taolunban 
+
+[WordPress blog](http://blog.school.bjtulxy.ml:8080/)
+
+use http://blog.school.bjtulxy.ml:8080/wp-admin/ to write now post
+username: bjtulxy
+password: mamen
 
 ## (LEGACY) About  free internet connection 
 
