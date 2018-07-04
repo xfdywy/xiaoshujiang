@@ -12,7 +12,7 @@ Recommend : [KODExplorer](/KODExplorer/)
 
 [NextCloud](/nextcloud/index.php/login)
 
-## About  free internet connection 
+## (LEGACY) About  free internet connection 
 
 when need
 
