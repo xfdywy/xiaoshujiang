@@ -17,28 +17,28 @@
 username: taolunban@md.com
 password: taolunban 
 
-[WordPress blog](http://blog.school.bjtulxy.ml:8080/)
+[WordPress blog](http://blog.school.bjtulxy.tk:8080/)
 
-use http://blog.school.bjtulxy.ml:8080/wp-admin/ to write new post
+use http://blog.school.bjtulxy.tk:8080/wp-admin/ to write new post
 username: bjtulxy
 password: mamen
 
 ## Jupyter notebook
 
-http://jupyter.school.bjtulxy.ml:8080/
+http://jupyter.school.bjtulxy.tk:8080/
 contact Yue to get the password
 
 ## Web ssh
 
-http://ssh.school.bjtulxy.ml:8080/
+http://ssh.school.bjtulxy.tk:8080/
 
 ## Monitor
 
-http://overview.school.bjtulxy.ml:8080/
+http://overview.school.bjtulxy.tk:8080/
 
 ## View server network usage
 
-http://10-10-43-3.school.bjtulxy.ml:8080/
+http://10-10-43-3.school.bjtulxy.tk:8080/
 
 ## (LEGACY) About  free internet connection 
 
