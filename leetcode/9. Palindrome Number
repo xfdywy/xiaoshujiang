@@ -1,0 +1,39 @@
+---
+title:  9. Palindrome Number
+date: 2019-3-18
+tags:
+    -   leetcode
+    -   easy
+categories:  
+---
+
+# 题目
+
+
+Determine whether an integer is a palindrome. An integer is a palindrome when it reads the same backward as forward.
+Example 1:
+Input: 121
+Output: true
+Example 2:
+Input: -121
+Output: false
+Explanation: From left to right, it reads -121. From right to left, it becomes 121-. Therefore it is not a palindrome.
+Example 3:
+Input: 10
+Output: false
+Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
+Follow up:
+Coud you solve it without converting the integer to a string?
+
+# 分析与解答
+
+两个思路，一个是直接求出反数，看看和原数是否是相等。
+
+这里要注意
+
+ - 判断溢出。参考第7题， 在最后一次之前判断是否溢出，方法是 `if (res > INT_MAX / 10) return -1;`
+
+
+如果是回文数的话，前半段和后半段的反转应该是一样的，所以只需要反转到中间就可以判断了，这里需要注意
+
+- 如果是偶数位，那么直接应该就相等了，如果是奇数位，应该还剩下中间一位数。
