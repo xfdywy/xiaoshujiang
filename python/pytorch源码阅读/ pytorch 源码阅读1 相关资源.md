@@ -21,5 +21,8 @@ https://pytorch.org/blog/a-tour-of-pytorch-internals-2/
  
  
  https://www.52coding.com.cn/2019/05/05/PyTorch0/
+
+
+http://blog.christianperone.com/2018/03/pytorch-internal-architecture-tour/
  
  .
