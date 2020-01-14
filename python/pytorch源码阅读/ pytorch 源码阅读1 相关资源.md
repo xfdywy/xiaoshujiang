@@ -24,7 +24,10 @@ https://pytorch.org/blog/a-tour-of-pytorch-internals-2/
 
 
 http://blog.christianperone.com/2018/03/pytorch-internal-architecture-tour/
+
+https://zhuanlan.zhihu.com/p/34629243
+
+https://hadxu.github.io/2018/01/03/Pytorch源码解析系列/
  
- 
- 
+ https://hadxu.github.io/2018/03/12/从零实现深度学习框架(第一天)/
  .
