@@ -17,4 +17,4 @@ categories: coding
 3. 论文中会遇到的一些问题及解决办法
 
 
-## latex安装与编辑器的使用
+# latex安装与编辑器的使用
