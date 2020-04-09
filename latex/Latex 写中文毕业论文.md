@@ -4,7 +4,7 @@ date: 2019-3-
 tags:
     -   Latex
     -   中文
-categorie: coding
+categories: coding
 ---
 
 
@@ -17,4 +17,4 @@ categorie: coding
 3. 论文中会遇到的一些问题及解决办法
 
 
-## latex
+## latex安装与编辑器的使用
