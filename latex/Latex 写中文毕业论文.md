@@ -2,7 +2,7 @@
 title:  Latex 写中文毕业论文
 date: 2019-3-
 tags:
-    -   Linux
+    -   Latex
     -   中文
 categorie: coding
 ---
