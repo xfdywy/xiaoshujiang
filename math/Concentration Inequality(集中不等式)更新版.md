@@ -1,7 +1,7 @@
 ---
 title:  Concentration Inequality(集中不等式)更新版
 date: 2020-4-17
-idx: 2
+idx: 1
 mathjax: true
 tags:
     -  Concentration Inequality
