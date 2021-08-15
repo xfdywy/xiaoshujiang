@@ -6,7 +6,7 @@ tags:
     - Math
     - Optimal Control
     - Reinforcement Learning
-categories:  topics
+categories:  topics/OCRL
 ---
 
 记录和分享最优控制和强化学习的相关内容
